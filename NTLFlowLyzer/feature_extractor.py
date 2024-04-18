@@ -380,7 +380,7 @@ class FeatureExtractor(object):
                         print(110 * "=")
                         features_of_flow[feature.name] = None
                         continue
-                features_of_flow["label"] = 'benign'
+                features_of_flow["label"] = self.get_label(features_of_flow)
                 self.__extracted_data.append(features_of_flow.copy())
                 # print(len(features_of_flow))
             with data_lock:

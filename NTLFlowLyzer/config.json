@@ -1,6 +1,6 @@
 {
-    "pcap_file_address": "/home/gerivives/dataset/s1-fw1-isp-benign.pcap",
-    "output_file_address": "/home/gerivives/dataset/s1-fw1-isp-benign.csv",
+    "pcap_file_address": "/home/gerivives/dataset/s1-fw1-isp-attack.pcap",
+    "output_file_address": "/home/gerivives/dataset/s1-fw1-isp-attack.csv",
     "batch_address": "/home/bccc/input_pcaps/",
     "batch_address_output": "/home/bccc/outputs/",
     "continues_batch_address": "/home/bccc/input_pcaps/",
